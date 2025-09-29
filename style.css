@@ -6,7 +6,7 @@
   /* page background */
   --text: #000000;
   /* main text */
-  --surface: #458fe3;
+  --surface: #6dbced;
   /* cards, boxes, list items */
   --nav: #163d6a;
   /* navbar (dark bar) */
@@ -25,7 +25,7 @@
   /* text on dark navbar */
   --border: #E6D6FF;
   /* soft borders */
-  --hero: #F1E8FF;
+  --hero: #98d1f3;
   /* jumbotron/hero bg */
 }
 
