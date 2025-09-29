@@ -14,55 +14,74 @@
     <link href="style.css" rel="stylesheet" />
   </head>
 
-  <!-- Toggle light-page ↔ dark-page -->
-
   <body class="light-page">
     <!-- Navbar gets added here -->
     <div id="nav-placeholder"></div>
 
     <!-- Main content -->
     <main class="container py-4">
-      <h1 class="mb-2">About Me</h1>
-      <p class="mb-3">
-        This paragraph uses the page text color. Here’s a
-        <a href="#">content link</a>.
-      </p>
+      <!-- About Me Section -->
+      <div class="container mt-5 text-center">
+         <img
+        src="images/github_pfp.png"
+        alt="GitHub Avatar"
+        style="border: 5px solid #000000"
+        class="rounded-circle mb-3 mx-auto d-block"
+        width="200"
+        height="200"
+      />
 
-      <!-- Hero -->
-      <section class="p-5 mb-4 bg-body-tertiary rounded-3">
-        <h2 class="display-6 mb-3">Hero Section</h2>
-        <a class="btn btn-primary" href="#">Get Started</a>
-      </section>
+        <!-- Main Heading -->
+        <h1 class="mb-4">About Me</h1>
 
-      <!-- Box -->
-      <div class="box mb-4">
-        <h3 class="h5">Plain Box</h3>
-        <p class="mb-0">
-          This is a plain div styled as a surface. <a href="#">Read more</a>
+        <p>
+          Hi, I'm Ismael Barron, but most people call me Ish. I'm a middle child
+          of three brothers and I’m very proud with the people I’m surrounded by
+          , they mean everything to me. I’m a student, a part-time worker, and
+          someone who loves to explore my hobbies and passions.
+        </p>
+
+        <h2 class="mt-4">My Life & Work</h2>
+        <p>
+          I run a small construction company with my dad and also work part-time
+          at Hertz in the Denver Airport. Being busy with work has taught me a
+          lot about responsibility and teamwork.
+        </p>
+
+        <h2 class="mt-4">Hobbies & Interests</h2>
+        <ul class="text-start mx-auto" style="max-width: 600px">
+          <li>
+            I love anime, especially <strong>One Piece</strong> — I even collect
+            One Piece stuff.
+          </li>
+          <li>
+            Building Legos is something I enjoy when I need to relax and focus.
+          </li>
+          <li>
+            Mountain biking with friends is one of my favorite ways to stay
+            active.
+          </li>
+          <li>
+            Music is really important to me — I enjoy emotional, heartfelt
+            songs. Artists I love include
+            <strong>Frank Ocean, Dijon,</strong> and <strong>Q</strong>.
+          </li>
+          <li>
+            I’m a practicing Catholic and love spreading the word and sharing my
+            faith.
+          </li>
+        </ul>
+
+        <h2 class="mt-4">Fun Facts</h2>
+        <p>
+          Even though I have a busy life, I always make time for the things and
+          people I care about. I like to think I’m lucky to be surrounded by
+          amazing friends and family who make life meaningful.
         </p>
       </div>
-
-      <!-- Card -->
-      <div class="card shadow-sm mb-4" style="max-width: 40rem">
-        <div class="card-body">
-          <h4 class="card-title h5">Card Title</h4>
-          <p class="card-text">
-            Cards pick up the surface/background and text from the theme.
-          </p>
-          <a class="btn btn-primary" href="#">Card Action</a>
-        </div>
-      </div>
-
-      <!-- List group -->
-      <ul class="list-group" style="max-width: 28rem">
-        <li class="list-group-item">First item</li>
-        <li class="list-group-item">Second item</li>
-        <li class="list-group-item">Third item</li>
-      </ul>
     </main>
 
-    <script> 
-  
+    <script>
       // Load only the #site-nav element
       $("#nav-placeholder").load("navbar.html #site-nav");
     </script>
