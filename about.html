@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>About</title>
+    <title>About me</title>
 
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
@@ -18,69 +18,112 @@
     <!-- Navbar gets added here -->
     <div id="nav-placeholder"></div>
 
-    <!-- Main content -->
+    <!-- Main content start -->
     <main class="container py-4">
-      <!-- About Me Section -->
+      <!-- Insett Githib pfp -->
       <div class="container mt-5 text-center">
-         <img
-        src="images/github_pfp.png"
-        alt="GitHub Avatar"
-        style="border: 5px solid #000000"
-        class="rounded-circle mb-3 mx-auto d-block"
-        width="200"
-        height="200"
-      />
-
-        <!-- Main Heading -->
-        <h1 class="mb-4">About Me</h1>
-
-        <p>
-          Hi, I'm Ismael Barron, but most people call me Ish. I'm a middle child
-          of three brothers and I’m very proud with the people I’m surrounded by
-          , they mean everything to me. I’m a student, a part-time worker, and
-          someone who loves to explore my hobbies and passions.
-        </p>
+        <img
+          src="images/github_pfp.png"
+          alt="GitHub Avatar"
+          style="border: 5px solid #000000"
+          class="rounded-circle mb-3 mx-auto d-block"
+          width="200"
+          height="200"
+        />
+        <div class="card mx-auto mb-4" style="max-width: 700px;">
+          <div class="card-body">
+            <!-- Main Heading -->
+            <h1 class="mb-4">About Me</h1>
+            <p>
+              Hi, I'm Ismael Barron, but most people call me Ish. I'm a middle child
+              of three brothers and I’m very proud with the people I’m surrounded by,
+              they mean everything to me. I’m a student, a part-time worker, and
+              someone who loves to explore my hobbies and passions.
+            </p>
+          </div>
+        </div>
 
         <h2 class="mt-4">My Life & Work</h2>
         <p>
-          I run a small construction company with my dad and also work part-time
-          at Hertz in the Denver Airport. Being busy with work has taught me a
-          lot about responsibility and teamwork.
+          I currently run a small construction company with my dad and also work part-time
+          at Hertz in the Denver Airport. I've always leaned toward hands on
+            jobs, here are some of the things I've done:
+            <ul class="text-start mx-auto" style="max-width: 600px">
+            <li>Shoveled snow and drove plow trucks in the winter</li>
+            <li>Detailed new apartments in Denver (painting, fixing dishwashers, cabinets, and doors)</li>
+            <li>Worked at UPS as a loader and unloader</li>
+            <li>Concrete finishing and laying</li>
+            </ul>
+            All these jobs have shown me how important it is to work hard, stay flexible, and figure things out as you go. I want to bring that same attitude into my education—taking what I’ve learned from real-life experiences and using it to help me grow, learn new things, and hopefully make a difference.
         </p>
 
-        <h2 class="mt-4">Hobbies & Interests</h2>
-        <ul class="text-start mx-auto" style="max-width: 600px">
-          <li>
-            I love anime, especially <strong>One Piece</strong> — I even collect
-            One Piece stuff.
-          </li>
-          <li>
-            Building Legos is something I enjoy when I need to relax and focus.
-          </li>
-          <li>
-            Mountain biking with friends is one of my favorite ways to stay
-            active.
-          </li>
-          <li>
-            Music is really important to me — I enjoy emotional, heartfelt
-            songs. Artists I love include
-            <strong>Frank Ocean, Dijon,</strong> and <strong>Q</strong>.
-          </li>
-          <li>
-            I’m a practicing Catholic and love spreading the word and sharing my
-            faith.
-          </li>
-        </ul>
+        <!-- Hobbies & Interests BOX + lISts -->
+        <div class="card mx-auto mb-4" >
 
-        <h2 class="mt-4">Fun Facts</h2>
+      
+          <div>
+            <h2>Hobbies & Interests</h2>
+            <ul class="text-start mx-auto" style="max-width: 600px">
+              <li>
+                I love anime, especially <strong>One Piece</strong>... I even collect
+                One Piece stuff.
+              </li>
+              <li>
+                Building Legos is something I enjoy when I need to relax and focus.
+              </li>
+              <li>
+                Mountain biking with friends is one of my favorite ways to stay
+                active.
+              </li>
+              <li>
+                Music: I enjoy emotional, heartfelt
+                songs. Artists I love include
+                <strong>Frank Ocean, Dijon,</strong> and <strong>Q</strong>.
+              </li>
+              <li>
+                I’m a practicing Catholic and love spreading the word and sharing my
+                faith.
+              </li>
+              <li>
+                I aspire to teach, guide, and mentor those who I can, helping others grow is my aspiration.
+              </li>
+              <li>
+                I'm a DIY mechanic. I work on my own truck, replaced its engine, and keep up with all the basic maintenance myself.
+              </li>
+              <li>
+                I love to eat and want to try everything at least once, even if it sounds "nasty".
+              </li>
+            </ul>
+          </div>
+        </div>
+
+       
+        <!-- Interests gaallery -->
+        <h2 class="mt-4">A peek into my interests</h2>
         <p>
-          Even though I have a busy life, I always make time for the things and
-          people I care about. I like to think I’m lucky to be surrounded by
-          amazing friends and family who make life meaningful.
+          Here are pictures of my hobbies and passions:
         </p>
+        <div class="row justify-content-center my-4">
+          <div class="col-6 col-md-4 col-lg-3 mb-3">
+            <img src="images/concrete_project.jpg" class="img-fluid rounded shadow" alt="Newly Laid Concrete Project">
+            <div class="small text-muted mt-2">Concrete project</div>
+          </div>
+          <div class="col-6 col-md-4 col-lg-3 mb-3">
+            <img src="images/lego_build.jpg" class="img-fluid rounded shadow" alt="One piece lego build">
+            <div class="small text-muted mt-2">Favorite Lego Build</div>
+          </div>
+          <div class="col-6 col-md-4 col-lg-3 mb-3">
+            <img src="images/mtb.jpg" class="img-fluid rounded shadow" alt="Mountain Biking">
+            <div class="small text-muted mt-2">Mountain Biking Adventure</div>
+          </div>
+          <div class="col-6 col-md-4 col-lg-3 mb-3">
+            <img src="images/engine_swap.jpg" class="img-fluid rounded shadow" alt="Working on engine swap">
+            <div class="small text-muted mt-2">DIY Mechanic Projects</div>
+          </div>
+        </div>
       </div>
     </main>
-
+    <!-- Main content end -->
     <script>
       // Load only the #site-nav element
       $("#nav-placeholder").load("navbar.html #site-nav");
